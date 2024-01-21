@@ -1,0 +1,40 @@
+name: halalhut
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: RobotoSlab
+      fonts:
+        - asset: fonts/RobotoSlab-Regular.ttf
+        - asset: fonts/RobotoSlab-ExtraLight.ttf
+        - asset: fonts/NunitoSans_10pt-Light.ttf
+        - asset: fonts/NunitoSans_10pt-ExtraLight.ttf
+        - asset: fonts/NunitoSans_10pt-Medium.ttf
+        - asset: fonts/NunitoSans_10pt-Regular.ttf
+
+  assets:
+    - assets/sample.png
+    - assets/pfp.png
+    - assets/Momos-i.png
+    - assets/star.png
+    - assets/Boo-i.png
+    - assets/chicken.png
+    - assets/crepe.png
+    - assets/burger.png
+    - assets/Oodles-i.png
